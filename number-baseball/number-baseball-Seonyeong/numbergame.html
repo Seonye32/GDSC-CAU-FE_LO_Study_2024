@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자 야구 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>숫자 야구 게임</h1>
+        <div class="instructions">
+            1~9까지 서로 다른 숫자 3개를 연달아 입력하세요.
+        </div>
+        <input type="text" id="user-input" maxlength="3" placeholder="숫자 입력 (예: 123)">
+        <button id="submit-btn">완료</button>
+        <div id="result"></div>
+        <button id="restart-btn" style="display: none;">다시 시작</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
